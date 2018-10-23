@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css2/animate.css">
+	<link rel="stylesheet" href="css2/icomoon.css">
+	<link rel="stylesheet" href="css2/bootstrap.css">
+	<link rel="stylesheet" href="css2/superfish.css">
+	<link rel="stylesheet" href="css2/magnific-popup.css">
+	<link rel="stylesheet" href="css2/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" href="css2/cs-select.css">
+	<link rel="stylesheet" href="css2/cs-skin-border.css">
+	
+	<link rel="stylesheet" href="css2/style.css">
+	<script src="js2/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+    <header id="fh5co-header-section" class="sticky-banner">
+			<div class="container">
+				<div class="nav-header">
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
+					<h1 id="fh5co-logo"><a href="index.html"><i class="icon-home"></i>MyHomes</a></h1>
+					<nav id="fh5co-menu-wrap" role="navigation">
+						<ul class="sf-menu" id="fh5co-primary-menu">
+                            <li class="active"><a href="index.html">Home</a></li>
+							<li><a href="colorlib-regform-8/index.html">Signup</a></li>
+							<li><a href="Login_v11/index.html">Login</a></li>
+							<li><a href="contact.html">Contact</a></li>
+                            
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+            
+    <div class="main">
+
+        <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <form method="POST" id="signup-form" class="signup-form" >
+
+                        <h2 class="form-title">Create account</h2>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="name" id="name" placeholder="Your Name"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" name="email" id="email" placeholder="Your Email"/>
+                        </div>
+                    <div class="form-group">
+                    <label for="gender" class="col-lg-2 control-label">Gender</label>
+                    <div class="col-lg-10">
+                <input type="radio" name="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                    </div>
+                </div>
+                    
+                <div class="form-group">
+                    <label for = "Date of Birth" class="col-lg-2 control-label">Date of Birth</label>
+                    <div class="col-lg-10">
+                <input type="date" class="form-control" name="bday"><br>
+                    </div>
+                </div>
+                
+												<section>
+                                                  
+													<label for="class" style="font-size: 85%;color: grey;">Documents:</label>
+													<select class="cs-select cs-skin-border">
+														<option value=""style="color: grey" name="doc" disabled selected>International Passport</option>
+														<option value="1"style="color: grey" name="doc">International Passport</option>
+														<option value="2"style="color: grey" name="doc">National ID Card</option>
+														<option value="3"style="color: grey" name="doc">Driver's License</option>
+														<option value="4"style="color: grey" name="doc">Permanent Voter's Card(PVC)</option>
+													</select>
+                                                       
+												</section>
+											
+                         <div>
+                        <p style="font-size: 85%;color: grey;">Upload your document</p>
+                            </div>
+                        <div class = "form-group">
+                        <input type="file" name="pic" accept="image/*">
+                        <input type="submit" value="Upload">
+                        </div>
+                        
+                        <div class="form-group">
+                            
+                            <input type="text" class="form-input" name="password" id="password" placeholder="Password"/>
+                            <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-input" name="re_password" id="re_password" placeholder="Repeat your password"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="submit1" id="submit" class="form-submit" value="Sign up"/>
+                        </div>
+                    </form>
+                    <p class="loginhere">
+                        Have already an account ? <a href="Login_v11/index.html" class="loginhere-link">Login here</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+ 
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js2/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
